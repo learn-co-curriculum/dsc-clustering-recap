@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This short lesson summarizes key takeaways from section 32
+This short lesson summarizes key takeaways from section 35
 
 ## Objectives
 You will be able to:
@@ -13,21 +13,12 @@ You will be able to:
 ## Key Takeaways
 
 The key takeaways from this section include:
-* The delphi technique suggests that multiple independent estimates will be more consistently accurate than any single estimate
-* Because of this, ensemble techniques are a powerful way for improving the quality of your models
-* Sometimes you'll use model stacking or meta-ensembles where you use of combination of different types of model for your ensemble
-* It's also common to have multiple similar models in an ensemble - e.g. a bunch of decision trees
-* Bagging (Bootstrap AGGregation) is a technique that leverages Bootstrap Resampling and Aggregation
-* Bootstrap resampling uses multiple smaller samples from the test data set to create independent estimates, and aggregation is the combining of those estimates to make predictions
-* A random forest is an ensemble method for decision trees using Bagging and the Subspace Sampling Method to create variance among the trees
-* With a random forest, for each tree, we sample using 2/3 of the training data and the remaining third is used to calculate the Out-of-Bag Error
-* In addition, the Subspace Sampling Method is used to further increase variability by randomly selecting the subset of features to use as predictors for training any given tree
-* GridsearchCV is an exhaustive search technique for finding optimal combinations of hyper parameters by calculating for every combination of parameter values you put into the search
-* Gradient boosting leverages an ensemble of weak learners (weak models) to create a strong combined model
-* Boosting (when compared to random forests) is an interative rather than independent process, using each model to strengthen the weaknesses of the previous ones
-* Two of the most common algorithms for Boosting are Adaboost (Adaptive Boosting) and Gradient Boosted Trees
-* Adaboost creates new classifiers by continually influencing the distribution of the data sampled to train each successive tree
-* Gradient Boosted Trees are a more advanced boosting algorithm that makes use of Gradient Descent
-* XGBoost (eXtreme Gradient Boosting) is one of the top gradient boosting algorithms currently in use
-* XGBoost is a stand-alone library that implements popular gradient boosting algorithms in the fastest, most performant way possible
+* There are two main types of clustering algorithms: non-hiearchical (K-Means) clustering, and hierarchical agglomerative clustering
+* You can quantify the performance of a clustering algorithm using metrics such as Variance Ratios
+* When working with the K-Means clustering algorithm, it is useful to create elbow plots to find an optimal value for K
+* When using hierarchical agglomerative clustering, different linkage criteria can be used to determine which clusters should be merged and at what point
+* Dendograms and clustergrams are very useful visual tools in hierarchical agglomerative clustering.
+* Advantages of K-Means clustering include easy implementation and speed, where a main disadvantage is that it isn't always straightforward how to pick the "right" value for K
+* Advantages of hierarchical agglomerative clustering include easy visualization and intuitiveness, where a main disadvantage is that the result is very distance metric-dependent
+* You can use supervised and unsupervised learning together to co-use them in an effective way, applications are Look-alike models in market segmentation and Semi-Supervised learning
 
