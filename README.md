@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This short lesson summarizes key takeaways from section 38
+In this section, you learned about clustering. Here are the key takeaways from this section.
 
 ## Objectives
 You will be able to:
